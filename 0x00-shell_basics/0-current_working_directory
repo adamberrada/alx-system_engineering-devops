@@ -1,4 +1,3 @@
 #!/bin/bash
-
 echo"the absolute path name of the current working directory"
 
