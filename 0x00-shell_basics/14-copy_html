@@ -1,0 +1,11 @@
+#!/bin/bash
+for file in *.html
+do
+    if test ! -e "../$file"
+    then
+        cp "$file" "../"
+    elif test "$file" -nt "../$file"
+    then
+        cp "$file" "../"
+    fi
+done
