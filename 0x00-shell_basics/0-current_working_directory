@@ -1,7 +1,11 @@
 #!/bin/bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 echo "prints the absolute path name" 
 =======
 echo"the absolute path name of the current working directory"
 
 >>>>>>> e0f3dff1a9f34acfe29711aa7be33c95aa0c9c99
+=======
+pwd
+>>>>>>> 6ad4a89878e77a2f0e0d49263242943c3f79b42c
