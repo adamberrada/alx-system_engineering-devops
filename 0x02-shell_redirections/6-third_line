@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n  3 iacta
+FILENAME="iacta"  LINE_NUMBER=3    head -n "$LINE_NUMBER" "$FILENAME" | tail -n 1
