@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Enter a number in base 10:"| read number| printf 'The number %d in base 16 is: %X\n' $number $number
+printf '%x\n' $DECIMAL
